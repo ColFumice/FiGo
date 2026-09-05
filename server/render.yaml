@@ -1,0 +1,9 @@
+﻿services:
+  - type: web
+    name: figo-relay
+    env: node
+    root: server
+    plan: free
+    buildCommand: npm ci --production
+    startCommand: node relay-server.js
+    autoDeploy: true
