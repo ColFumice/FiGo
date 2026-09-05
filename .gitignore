@@ -1,0 +1,19 @@
+﻿# Build artifacts
+/build/
+/library/
+/temp/
+/native/
+
+# Node
+/server/node_modules/
+
+# IDE
+/.vscode/
+/.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cocos
+*.meta.log

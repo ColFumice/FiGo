@@ -1,0 +1,6 @@
+﻿{
+  "name": "figo-relay",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": { "ws": "^8.18.0" }
+}
